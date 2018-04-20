@@ -19,7 +19,7 @@ var APIRequest =  class Request extends React.Component{
         /*
     var component = this;
     component.serverRequest = Adal.apiRequest({
-      url: 'https://feapimanagementservice.azure-api.net/permissions/access',
+      url: 'https://djangoapi.azure-api.net/echo/resource?param1=sample',
       adalurl: 'https://graph.microsoft.com/v1.0/me',
       headers: {
         'Accept': 'application/json;odata.metadata=full'
@@ -46,7 +46,7 @@ componentWillUnmount() {
 handleAPIRequest()
 {
     Adal.apiRequest({
-      url: 'https://feapimanagement.azure-api.net/permissions/access',
+      url: 'https://djangoapi.azure-api.net/echo/resource?param1=sample',
       method : 'GET',
       adalurl: 'https://graph.microsoft.com/v1.0/me',
       headers: {
